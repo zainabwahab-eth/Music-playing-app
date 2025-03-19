@@ -1,0 +1,60 @@
+.body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 90vh;
+    background-color: #FAFAFA;
+    overflow-y: auto;
+}
+
+.songs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 12px;
+    width: 80%;
+    border: 1px solid black;
+    background-color: #AAA5A5;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.nowPlaying {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: antiquewhite;
+}
